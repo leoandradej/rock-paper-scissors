@@ -7,20 +7,33 @@
     <title>Rock, Paper, Scissors Project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <script src="myScript.js" defer></script>
+    <script src="https://kit.fontawesome.com/602e9fdfad.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <h1>LET'S PLAY!</h1>
-        <div class="buttons">
-            <button id="rock">ROCK</button>
-            <button id="paper">PAPER</button>
-            <button id="scissors">SCISSORS</button>
-        </div>
-
-        <p id="result"></p>
-        <p id="player"></p>
-        <p id="computer"></p>
-        <h1 id="winner"></h1>
-    
-</body>
+    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
+  
+    <h1>ROCK PAPER SCISSORS</h1>
+    <div class="container">
+      <span>MAKE YOUR CHOICE!</span>
+      <div class="options">
+        <button class="option-item" id="rock">
+          <i class="fa-regular fa-hand-back-fist"></i>
+          <span>ROCK</span>
+        </button>
+        <button class="option-item" id="paper">
+          <i class="fa-regular fa-hand"></i>
+          <span>PAPER</span>
+        </button>
+        <button class="option-item" id="scissors">
+          <i class="fa-regular fa-hand-scissors"></i>
+          <span>SCISSORS</span>
+        </button>
+      </div>
+      <div class=results>
+        <span class="display-winner"></span>
+        <span class="display-message"></span>
+      </div>
+    </div>
+  </body>
 </html>
